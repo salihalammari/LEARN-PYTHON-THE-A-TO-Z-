@@ -113,11 +113,8 @@ You may ask now: which is better? The "compiling" model or the "interpreting" mo
 
 |   | Compilation  |  Interpretation |
 |---|---|---|
-| Advabtages  | the execution of the translated code is usually faster; 
-      only the user has to have the compiler - the end- user may use the use the code without it;
-      the translated code is stored using machine language-as it is very hard to understand it, your own invention and programming tricks are likely to remain your secret | you can run the code as soon as you complete it - there are no additional phases of translation;
-      the code is storedusing programming language-this means that it can be run on computers using different machine languages; you don't compile your code separately for each different architecture.  |
-| Disa dvantages | the compilation itself may be a very time- consuming process - you may not be able to run your code immediately after making an amendment;
+| Advabtages  | the execution of the translated code is usually faster; only the user has to have the compiler - the end- user may use the use the code without it; the translated code is stored using machine language-as it is very hard to understand it, your own invention and programming tricks are likely to remain your secret | you can run the code as soon as you complete it - there are no additional phases of translation; the code is storedusing programming language-this means that it can be run on computers using different machine languages; you don't compile your code separately for each different architecture.  |
+| Disadvantages | the compilation itself may be a very time- consuming process - you may not be able to run your code immediately after making an amendment;
 you have to have as many compilers as hardware platforms you want your code to be run on. | don't expect interpretation to ramp up your code to high speed- your code will share the computer's power with the interprter, so it can't be really fast;
 both you annd the end user have to have the interpreter to run your code  |
 
