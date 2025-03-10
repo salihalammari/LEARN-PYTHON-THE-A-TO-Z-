@@ -297,7 +297,7 @@ Python has several implementations, each tailored for different use cases:
 
 - **CPython**: The default and most widely-used implementation, written in C.
 - **Jython**: An implementation of Python that runs on the Java platform.
-- **IronPython**: An implementation of Python running on the .NET framework.
+- **MironPython**: An implementation of Python running on the .NET framework.
 - **PyPy**: An implementation focused on speed, using a Just-In-Time (JIT) compiler.
 
 Each implementation has its own strengths and weaknesses, and the choice of implementation can depend on the specific requirements of a project.
@@ -307,3 +307,132 @@ Each implementation has its own strengths and weaknesses, and the choice of impl
 Python has had a significant impact on modern programming, influencing many other languages and becoming a staple in various fields such as web development, data science, artificial intelligence, and more. Its simplicity and readability have made it a popular choice for beginners and experienced developers alike.
 
 Let's dive deeper into Python's ecosystem and explore some of the libraries and frameworks that have contributed to its success.
+
+## 1.3 Section 3 – Downloading and Installing Python
+
+Welcome to section three, where we will talk about the ways of obtaining, installing, and configuring Python on your local computer. This section is optional, as throughout the course you will be able to launch, test, and experiment with all your Python programs in Edube Interactive TM, the programming environment that we have integrated with the learning platform and these study resources. Still, if you can download and install Python on your local machine, we strongly recommend it.
+
+### 1.3.1 Begin your Python journey
+
+#### How to get Python and how to get to use it
+
+There are several ways to get your own copy of Python 3, depending on the operating system you use.
+
+#### For Linux Users
+
+Linux users most probably have Python already installed - this is the most likely scenario, as Python's infrastructure is intensively used by many Linux OS components.
+
+For example, some distributors may couple their specific tools together with the system and many of these tools, like package managers, are often written in Python. Some parts of graphical environments available in the Linux world may use Python, too.
+
+If you're a Linux user, open the terminal/console, and type:
+
+```sh
+python3
+```
+
+at the shell prompt, press Enter and wait. If you see something like this:
+
+```
+Python 3.x.x (default, ... , ...)
+[GCC ...] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+```
+
+then you don't have to do anything else.
+
+If Python 3 is absent, then refer to your Linux documentation in order to find out how to use your package manager to download and install a new package – the one you need is named `python3` or its name begins with that.
+
+#### For Non-Linux Users
+
+All non-Linux users can download a copy at [https://www.python.org/downloads/](https://www.python.org/downloads/).
+
+Follow the instructions on the website to download and install Python for your operating system. Once installed, you can verify the installation by opening a terminal or command prompt and typing:
+
+```sh
+python --version
+```
+
+or
+
+```sh
+python3 --version
+```
+
+You should see the version of Python that you installed.
+
+#### Using Python
+
+After installing Python, you can start using it by opening a terminal or command prompt and typing `python` or `python3`. This will open the Python interactive shell where you can start writing and executing Python code.
+
+For example, you can try the following:
+
+```python
+print("Hello, Python!")
+```
+
+This should output:
+
+```
+Hello, Python!
+```
+
+Congratulations! You have successfully installed Python and written your first Python program.
+
+### 1.3.2 How to download, install, and configure Python
+
+Because the browser tells the site you've entered the OS you use, the only step you have to take is to click the appropriate Python version you want.
+
+In this case, select Python 3. The site always offers you the latest version of it.
+
+#### For Windows Users
+
+1. Start the downloaded `.exe` file and follow all the steps.
+2. Leave the default settings the installer suggests for now, with one exception - look at the checkbox named `Add Python 3.x to PATH` and check it.
+
+This will make things easier.
+
+#### For macOS Users
+
+A version of Python 2 may already have been preinstalled on your computer, but since we will be working with Python 3, you will still need to download and install the relevant `.pkg` file from the Python site.
+
+1. Download the `.pkg` file from the [Python site](https://www.python.org/downloads/).
+2. Open the downloaded file and follow the installation instructions.
+
+After installation, you can verify the installation by opening a terminal and typing:
+
+```sh
+python3 --version
+```
+
+You should see the version of Python that you installed.
+
+#### For Linux Users
+
+Refer to your Linux documentation to find out how to use your package manager to download and install a new package – the one you need is named `python3` or its name begins with that.
+
+After installation, you can verify the installation by opening a terminal and typing:
+
+```sh
+python3 --version
+```
+
+You should see the version of Python that you installed.
+
+#### Using Python
+
+After installing Python, you can start using it by opening a terminal or command prompt and typing `python` or `python3`. This will open the Python interactive shell where you can start writing and executing Python code.
+
+For example, you can try the following:
+
+```python
+print("Hello, Python!")
+```
+
+This should output:
+
+```
+Hello, Python!
+```
+
+Congratulations! You have successfully installed Python and written your first Python program.
