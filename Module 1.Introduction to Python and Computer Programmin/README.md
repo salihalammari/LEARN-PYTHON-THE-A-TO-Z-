@@ -116,14 +116,179 @@ You may ask now: which is better? The "compiling" model or the "interpreting" mo
 | Advabtages  | the execution of the translated code is usually faster; only the user has to have the compiler - the end- user may use the use the code without it; the translated code is stored using machine language-as it is very hard to understand it, your own invention and programming tricks are likely to remain your secret | you can run the code as soon as you complete it - there are no additional phases of translation; the code is storedusing programming language-this means that it can be run on computers using different machine languages; you don't compile your code separately for each different architecture.  |
 | Disadvantages | the compilation itself may be a very time- consuming process - you may not be able to run your code immediately after making an amendment; you have to have as many compilers as hardware platforms you want your code to be run on. | don't expect interpretation to ramp up your code to high speed- your code will share the computer's power with the interprter, so it can't be really fast; both you annd the end user have to have the interpreter to run your code  |
 
-
-
-
-
 What does this all mean for you?
 
-Python is an interpreted language. This means that it inherits all the described advantages and disadvantages. Of course, it adds some of its unique features to both sets.
+- Python is an interpreted language. This means that it inherits all the described advantages and disadvantages. Of course, it adds some of its unique features to both sets.
 
-If you want to program in Python, you'll need the Python interpreter. You won't be able to run your code without it. Fortunately, Python is free. This is one of its most important advantages.
+- If you want to program in Python, you'll need the Python interpreter. You won't be able to run your code without it. Fortunately, Python is free. This is one of its most important advantages.
 
 Due to historical reasons, languages designed to be utilized in the interpretation manner are often called scripting languages, while the source programs encoded using them are called scripts. Okay, let's meet Python.
+
+# 1.2 Section 2 – Introduction to Python
+
+Welcome to section two. Here, we will learn a little bit about the history of Python, different Python versions and implementations, and the impact that Python has had on modern-day programming. Let's begin.
+
+### 1.2.1 Python – a tool, not a reptile
+
+What is Python?
+
+Python is a widely-used, interpreted, object-oriented, and high-level programming language with dynamic semantics, used for general-purpose programming.
+
+And while you may know the python as a large snake, the name of the Python programming language comes from an old BBC television comedy sketch series called Monty Python's Flying Circus.
+
+At the height of its success, the Monty Python team were performing their sketches to live audiences across the world, including at the Hollywood Bowl.
+
+Since Monty Python is considered one of the two fundamental nutrients to a programmer (the other being pizza), Python's creator named the language in honor of the TV show.
+
+### 1.2.2 Who created Python?
+
+One of the amazing features of Python is the fact that it is actually one person's work. Usually, new programming languages are developed and published by large companies employing lots of professionals, and due to copyright rules, it is very hard to name any of the people involved in the project. Python is an exception.
+
+There are not many languages whose authors are known by name. Python was created by [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum ), born in 1956 in Haarlem, the Netherlands. Of course, Guido van Rossum did not develop and evolve all the Python components himself...
+
+The speed with which Python has spread around the world is a result of the continuous work of thousands (very often anonymous) programmers, testers, users (many of them aren't IT specialists) and enthusiasts, but it must be said that the very first idea (the seed from which Python sprouted) came to one head – Guido's.
+
+### Python's Philosophy
+
+Python's design philosophy emphasizes code readability and simplicity. The language's syntax is meant to be clear and expressive, allowing programmers to write code that is both easy to understand and maintain. This philosophy is encapsulated in "The Zen of Python," a collection of aphorisms that capture the guiding principles of Python's design.
+
+To view "The Zen of Python," you can simply type `import this` in the Python interpreter. Some of the key principles include:
+
+- Beautiful is better than ugly.
+- Explicit is better than implicit.
+- Simple is better than complex.
+- Complex is better than complicated.
+- Readability counts.
+
+These principles help ensure that Python code is not only functional but also elegant and easy to read, making it a favorite among developers for both small scripts and large-scale applications.
+
+### 1.2.3 A hobby programming project
+
+The circumstances in which Python was created are a bit puzzling. According to Guido van Rossum:
+
+> In December 1989, I was looking for a "hobby" programming project that would keep me occupied during the week around Christmas. My office (...) would be closed, but I had a home computer, and not much else on my hands. I decided to write an interpreter for the new scripting language I had been thinking about lately: a descendant of ABC that would appeal to Unix/C hackers. I chose Python as a working title for the project, being in a slightly irreverent mood (and a big fan of Monty Python's Flying Circus).  
+> — Guido van Rossum
+
+### Python goals
+
+In 1999, Guido van Rossum defined his goals for Python:
+
+- an easy and intuitive language just as powerful as those of the major competitors;
+- open source, so anyone can contribute to its development;
+- code that is as understandable as plain English;
+- suitable for everyday tasks, allowing for short development times.
+
+About 20 years later, it is clear that all these intentions have been fulfilled. Some sources say that Python is the most popular programming language in the world, while others claim it's the second or the third.
+
+Either way, it still occupies a high rank in the top ten of the       [PYPL PopularitY of Programming Language](https://pypl.github.io/PYPL.html#google_vignette ) and the [TIOBE Programming Community Index](https://www.tiobe.com/tiobe-index/ ).
+
+Python isn't a young language anymore. It is mature and trustworthy. It's not a one-hit wonder. It's a bright star in the programming firmament, and time spent learning Python is a very good investment.
+
+### 1.2.4 What makes Python so special?
+
+Why Python? How does it happen that programmers, young and old, experienced and novice, want to use it? How did it happen that large companies adopted Python and implemented their flagship products using it?
+
+There are many reasons – we've listed some of them already, but let's enumerate them again in a more practical manner:
+
+- **It's easy to learn** - the time needed to learn Python is shorter than for many other languages; this means that it's possible to start the actual programming faster.
+- **It's easy to teach** - the teaching workload is smaller than that needed by other languages; this means that the teacher can put more emphasis on general (language-independent) programming techniques, not wasting energy on exotic tricks, strange exceptions and incomprehensible rules.
+- **It's easy to use for writing new software** - it's often possible to write code faster when using Python.
+- **It's easy to understand** - it's also often easier to understand someone else's code faster if it is written in Python.
+- **It's easy to obtain, install and deploy** - Python is free, open and multiplatform; not all languages can boast that.
+
+### 1.2.5 Python rivals?
+
+Python has two direct competitors, with comparable properties and predispositions. These are:
+
+- **Perl** – a scripting language originally authored by Larry Wall;
+- **Ruby** – a scripting language originally authored by Yukihiro Matsumoto.
+
+The former is more traditional and more conservative than Python, and resembles some of the old languages derived from the classic C programming language.
+
+In contrast, the latter is more innovative and more full of fresh ideas than Python. Python itself lies somewhere between these two creations.
+
+The Internet is full of forums with infinite discussions on the superiority of one of these three over the others, should you wish to learn more about each of them.
+
+### 1.2.6 Where can we see Python in action?
+
+We see it every day and almost everywhere. It's used extensively to implement complex Internet services like search engines, cloud storage and tools, social media and so on. Whenever you use any of these services, you are actually very close to Python, although you wouldn't know it.
+
+Many developing tools are implemented in Python. More and more everyday-use applications are being written in Python. Lots of scientists have abandoned expensive proprietary tools and switched to Python. Lots of IT project testers have started using Python to carry out repeatable test procedures. The list is long.
+
+### 1.2.7 Why not Python?
+
+Despite Python's growing popularity, there are still some niches where Python is absent, or is rarely seen:
+
+- **Low-level programming**: Sometimes called "close to metal" programming, if you want to implement an extremely effective driver or graphical engine, you wouldn't use Python.
+- **Applications for mobile devices**: Although this territory is still waiting to be conquered by Python, it will most likely happen someday.
+
+### 1.2.8 There is more than one Python
+
+#### Python 2 vs. Python 3
+
+There are two main kinds of Python, called Python 2 and Python 3.
+
+Python 2 is an older version of the original Python. Its development has since been intentionally stalled, although that doesn't mean that there are no updates to it. On the contrary, the updates are issued on a regular basis, but they are not intended to modify the language in any significant way. They rather fix any freshly discovered bugs and security holes. Python 2's development path has reached a dead end already, but Python 2 itself is still very much alive.
+
+Python 3 is the newer (or to be more precise, the current) version of the language. It's going through its own evolutionary path, creating its own standards and habits.
+
+#### Key Differences
+
+- **Print Statement**: In Python 2, `print` is treated as a statement, whereas in Python 3, it is a function.
+    ```python
+    # Python 2
+    print "Hello, World!"
+    
+    # Python 3
+    print("Hello, World!")
+    ```
+
+- **Integer Division**: In Python 2, dividing two integers performs floor division, while in Python 3, it performs true division.
+    ```python
+    # Python 2
+    print 5 / 2  # Output: 2
+    
+    # Python 3
+    print(5 / 2)  # Output: 2.5
+    ```
+
+- **Unicode**: In Python 2, strings are ASCII by default, whereas in Python 3, strings are Unicode by default.
+    ```python
+    # Python 2
+    print type("Hello")  # Output: <type 'str'>
+    
+    # Python 3
+    print(type("Hello"))  # Output: <class 'str'>
+    ```
+
+- **xrange**: In Python 2, `xrange()` is used for iterations, while in Python 3, `range()` behaves like `xrange()` and `xrange()` is removed.
+    ```python
+    # Python 2
+    for i in xrange(5):
+            print i
+    
+    # Python 3
+    for i in range(5):
+            print(i)
+    ```
+
+#### Migration
+
+Migrating from Python 2 to Python 3 can be challenging due to these and other differences. However, tools like `2to3` can help automate much of the process. It's generally recommended to use Python 3 for new projects, as Python 2 has reached the end of its life and is no longer supported.
+
+### 1.2.9 Python Implementations
+
+Python has several implementations, each tailored for different use cases:
+
+- **CPython**: The default and most widely-used implementation, written in C.
+- **Jython**: An implementation of Python that runs on the Java platform.
+- **IronPython**: An implementation of Python running on the .NET framework.
+- **PyPy**: An implementation focused on speed, using a Just-In-Time (JIT) compiler.
+
+Each implementation has its own strengths and weaknesses, and the choice of implementation can depend on the specific requirements of a project.
+
+### 1.2.10 Python's Impact on Modern Programming
+
+Python has had a significant impact on modern programming, influencing many other languages and becoming a staple in various fields such as web development, data science, artificial intelligence, and more. Its simplicity and readability have made it a popular choice for beginners and experienced developers alike.
+
+Let's dive deeper into Python's ecosystem and explore some of the libraries and frameworks that have contributed to its success.
